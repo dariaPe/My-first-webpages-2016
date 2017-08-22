@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Profil zawodowy Daria Przewłoka</title>
+	<meta name="descritpion" content="Mój profil zawodowy i eduukacyjny oraz cele zawodowe"/>
+	<meta name="keywords" content="kariera, edukacja, osiągnięcia, profil zawodowy, przyszłość, programowanie"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="author" content=" Daria Przewłoka"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fontello.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="foto/favicon.png" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+			$(document).ready(function(){
+		$('body').hide();
+		$('body').fadeIn(1000);
+	});
+
+
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('.box1').click(function() { $.scrollTo($('#me'), 1000); });
+			$('.box2').click(function() { $.scrollTo($('#edu'),1000); });
+			$('.box3').click(function() { $.scrollTo($('#kar'),1000); });
+			$('.box4').click(function() { $.scrollTo($('#pas'), 1000); });
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+			$(window).scroll(function()
+		{
+			if($(this).scrollTop()>400) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+	
+	
+	</script>
+	
+</head>
+
+<body>
+
+	<a href="#" class="scrollup"></a>
+
+
+	<div id="header">
+	
+		<div id="logo"> 
+			<h1> Daria Przewłoka </h1>
+			<p> "Każdy ma to na co się odważy" </p>
+		</div>
+		
+		<div id="foto" class="non-mobile-text">
+			<img src="foto/ja.jpg" alt="ja-Daria" width="200px" height="260px" title="Daria Przewłoka"/>
+		</div>	
+		
+	</div>
+	
+	<div id="menu">
+		<div id="content">
+			<div class="box1">
+				<a class="tilelink"><i class="icon-user"></i><br/><b>o mnie</b></a>
+			</div>
+			
+			<div class="box2">
+				<a  class="tilelink"><i class="icon-book-1"></i><br/><b>edukacja</b></a>
+			</div>
+			
+			<div class="box3">
+				<a  class="tilelink"><i class="icon-vcard"></i><br/><b>kariera</b></a>
+			</div>
+			
+			<div class="box4">
+				<a class="tilelink"><i class="icon-heart"></i><br/><b>umiejętności &amp; pasje</b></a>
+			</div>
+		</div>
+	</div>
+	
+	<div id="me">
+		<div class="kimjestem">
+			<h2>Kim jestem?</h2>
+			<p>Jestem absolwentką Politechniki Gdańskiej, stacjonarnych studiów magisterskich na kierunku Europeistyka. W ramach studiów, w 2009 roku, rozpoczęłam naukę na tureckiej uczelni Yasar Universitesi, kierunek Business Administration. Moim celem zawodowym jest rozwój na stanowisku związanym z pozycją front-end developer, ciągła nauka i poszerzanie wiedzy z zakresu projektowania stron www oraz nowoczesnych technologii.</p>
+		</div>
+	</div>
+	
+	
+	<div id="edu">
+	
+		<ol><b>Moje wykształcenie</b>
+			<li><b>2010-09 - 2012-06 </b><br/>
+				Politechnika Gdańska, Wydział Zarządzania i Ekonomii, <br/>
+				Kierunek: Europeistyka
+				stacjonarne, <br/>
+				Spec.: Europejskie Relacje Międzynarodowe <br/>
+				Uzyskany tytuł Magistra Europeistyki.</li>
+				
+			<li><b>2009-09 - 2010-02</b><br/>
+				YAŞAR Üniversitesi w Izmirze - Turcja,<br/>
+				Kierunek: Business Administration
+				Uczestnik Pragramu Erasmus.</li>
+				
+			<li><b>2007-09 - 2010-06</b><br/>
+				Politechnika Gdańska, Wydział Zarządzania i Ekonomii, <br/>
+				Kierunek: Europeistyka stacjonarne.<br/>
+				Uzyskany tytuł licencjata Europeistyki </li>
+		</ol>
+	</div>
+	
+	<div id="kar">
+			<h2>Przebieg kariery zawodowej:</h2>
+			
+				<div id="boxkar1">
+					<p><b>luty 2016 - Yoberi Sp. zo.o</b><br/>
+					Business Unit Manager, Tester aplikacji & marketing</p>	
+				</div>
+				
+				<div id="boxkar2">
+					<p><b>kwiecień 2014 - grudzień 2015 PPH KAMIX Sp. z o.o. Sp. k.</b><br/>
+					Specjalista ds. Marketingu </p>	
+				</div>
+				
+				<div id="boxkar3">
+					<p><b>marzec 2013 - kwiecień 2014 Morizon S.A</b><br/>
+					Specjalista ds. administracji</p>	
+				</div>
+				
+				<div id="boxkar4">
+					<h2>Staże:</h2>
+					<p>Thomson Reuters<br/>
+					Ambasada Rzeczpospolitej Polskiej w Bratysławie<br/>
+					Enterprise Europe Network w Warszawie</p>
+				</div>
+	</div>
+	
+	<div id="pas">
+		<h2>Pasje &amp; umiejętności:</h2>
+			<div id="kola">
+				<div class="kolo1">
+					<p class="mojepasje"><b>dalekie podróże<br/>montaż filmów <br/>dietetyka</br>psychologia</br> psy </b></p>
+				</div>
+			
+				<div class="kolo2">
+					<p class="mojeumiejetnosci"><b>HTML5 CSS3<br/>jQuery, RWD<br/>notepad++ Sublime<br/> MSoffice<br/>Corel Video Studio<br/>Business English Certyfikat LCCI
+					<br/>prawo jazdy kat.B<br/></b></p>
+				</div>
+				
+			</div>
+	</div>
+	
+	<div id="footer">
+	
+		<p>2016 &copy; Daria Przewłoka - CV<br/>kontakt: <a href="mailto:daria.prze@gmail.com">daria.prze@gmail.com </a></p>
+		
+	</div>
+	
+	
+</body>
+</html>

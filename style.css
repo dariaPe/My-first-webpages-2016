@@ -1,0 +1,396 @@
+body
+{
+	margin: 0;
+	padding: 0; 
+	font-family: 'Poiret One', cursive;
+}
+#header
+{
+
+	width: 100%;
+	height: 190px;
+	border-bottom: 1px solid black;
+	float:left;
+	
+}
+#logo
+{
+	margin-left: 5%;
+	float:left;
+	color: black;
+	letter-spacing: 2px;
+	font-size: 25px;
+	decoration: none;
+}
+#foto
+{
+	background: url("ja.jpg");
+	float:right;
+	margin-right: 100px;
+	margin-top: 30px;
+	
+}
+
+#menu
+{
+	width:100%;
+	height: 600px;
+	margin-top: 0;
+	overflow:hidden;
+	display:table;
+	background: url("foto/biurko.jpg");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	
+}
+#content
+{
+	margin-left:auto;
+	margin-right:auto;
+	height:230px;
+	width:800px;
+	margin-top:145px;
+	color:black;
+	cursor: pointer;
+}
+
+.box1
+{
+	float: left;
+    width: 172px;
+    height: 210px;
+    margin: 10px; 
+	background-color: orange;
+	text-align: center;
+	font-size:30px;
+}
+.box1:hover
+{
+	background-color: rgba(255, 172, 56, 0.6);
+}
+.box2:hover
+{
+	background-color: rgba(255, 172, 56, 0.6);
+}
+.box3:hover
+{
+	background-color: rgba(255, 172, 56, 0.6);
+}
+.box4:hover
+{
+	background-color: rgba(255, 172, 56, 0.6);
+}
+.box2
+{
+	float: left;
+    width: 172px;
+    height: 210px;
+    margin: 10px; 
+	background-color: orange;
+	text-align: center;
+	font-size:30px;
+}
+.box3
+{
+	float: left;
+    width: 172px;
+    height: 210px;
+    margin: 10px; 
+	background-color: orange;
+	text-align: center;
+	font-size:30px;
+	
+	
+}
+.box4
+{
+	float: left;
+    width: 172px;
+    height: 210px;
+    margin: 10px; 
+	background-color: orange;
+	text-align: center;
+	font-size:30px;
+	
+}
+a.tilelink
+{
+	color: black;
+	text-decoration:none;
+}
+#me
+{
+	width:100%;
+	float:left;
+	height:400px;
+	background-color:black;
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
+}
+
+.kimjestem
+{
+	text-align: center;
+	color:white;
+	line-height: 40px;
+	font-size:25px;
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+}
+
+#edu
+{
+	margin-top:150px;
+	background-image: url(foto/brickwall.png);
+	width:100%;
+	border-top: 2px dotted orange;
+	border-bottom: 2px dotted orange;
+	float:left;
+	height:700px;
+	text-align: center;
+	color:black;
+	line-height: 40px;
+	font-size:25px;	
+}
+
+ol
+{
+	margin-top:20px;
+	margin-bottom:5px;
+	list-style-type: none;
+	font-size: 30px;
+}
+ol>li
+{
+	font-size:20px;
+	margin-top:20px;
+}
+#kar
+{
+	margin-top:50px;
+	width:100%;
+	float:left;
+	height:1200px;
+	color:black;
+	line-height: 40px;
+	font-size:23px;	 
+	text-align:center;
+	
+ }
+
+#boxkar1
+{	
+	border-bottom: 2px dotted orange;
+	height: 100px;
+    width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	padding: 20px;
+	
+}
+
+#boxkar2
+{	
+	height: 110px;
+    width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+	padding: 20px;
+	border-bottom: 2px dotted orange;
+}
+
+#boxkar3
+{	
+	height: 120px;
+    width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+	padding: 20px;
+	border-bottom: 2px dotted orange;	
+}
+
+#boxkar4
+{	
+	height: 250px;
+    width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+	padding: 20px;
+	border-bottom: 2px dotted orange;
+}
+#pas
+{
+	float:left;
+	width:100%;
+	height:700px;
+	color:black;
+	line-height: 40px;
+	font-size:23px;	 
+	text-align:center;
+	margin-top:0;
+	clear:both;
+}
+#kola
+{
+	margin-left:auto;
+	margin-right:auto;
+	height:500px;
+	width:800px;
+	margin-top:0px;
+	
+}
+.kolo1
+{
+	background: orange;
+	border-radius: 250px;
+	width: 350px;
+	height: 350px;
+	float:left;
+	opacity: 0.7;
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:5%;
+}
+.kolo1:hover
+{
+	background-color: rgba(255,255,255, 0.7);
+}
+
+.kolo2
+{
+	background: orange;
+	border-radius: 250px;
+	width: 350px;
+	height: 350px;
+	float:left;
+	opacity: 0.7;
+	margin-right:25px;
+	margin-left:25px;
+	margin-top:5%;
+	line-height: normal;
+}
+.kolo2:hover
+{
+	background-color: rgba(255,255,255, 0.7);
+}
+.mojepasje
+{
+	margin-top:20%;
+	text-align:center;
+}
+.mojeumiejetnosci
+{
+	line-height: 1cm;
+}
+#footer
+{
+	margin-top:0;
+	margin-bottom:0;
+	background-color: black;
+	border-top: 2px solid orange;
+	height: 100px;
+	width:100%;
+	clear:both;
+	color:white;
+	text-align:center;
+	font-size: 23px;
+}
+a
+{
+	text-decoration: none;
+	color:orange;
+}
+.scrollup
+{
+	width:64px;
+	height:64px;
+	text-decoration: none;
+	background: url("foto/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right:3px;
+	bottom: 10px;
+	opacity:0.7;
+	dispaly:none;
+}
+
+/*RWD*/
+
+@media (max-width: 750px) {
+.non-mobile-text{ display: none; }
+}
+
+
+
+@media (max-width: 1100px) and (min-width: 1000px) {
+ 
+#content{width:800px;}
+
+.kimjestem {width:900px;}
+
+#edu  {height:700px;}
+
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+
+#content {width: 600px;}
+
+.kimjestem {width:700px;}
+
+#edu  {height:800px;}
+
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+	
+#content {width: 400px;}
+
+#me {height: 700px;}
+.kimjestem {width:450px;}
+
+#edu  {height:900px;}
+
+#boxkar1 {width: 390px; height:120px;}
+#boxkar2 {width: 390px; height:120px;}
+#boxkar3 {width: 390px; height:120px;}
+#boxkar4 {width: 390px; height:240px;}
+
+#pas {height:1000px;}
+#kola {height:1000px; width:400px;}
+
+#footer {height:150px;}
+
+}
+
+@media (max-width: 500px) and (min-width: 0px) {
+
+#header {height: 270px;}
+#logo { fotn-size: 15px;}
+
+#content {width: 200px;}
+
+#me {height: 900px;}
+.kimjestem {font-size:18px; width: 200px;}
+
+#edu  {height:1100px; font-size:15px;}
+
+#boxkar1 {width: 260px; height:195px;font-size:15px;}
+#boxkar2 {width: 260px; height:195px;font-size:15px;}
+#boxkar3 {width: 260px; height:195px;font-size:15px;}
+#boxkar4 {width: 260px; height:300px;font-size:15px;}
+
+#pas {height:650px; font-size:20px;}
+#kola {height:525px; width:200px; font-size:10px; margin-left: 0px;}
+.kolo1 {width: 250px; height:250px;font-size:10px; }
+.kolo2 {width: 250px; height:250px; font-size:10px;}
+.mojeumiejetnosci {line-height:0.7cm;}
+
+#footer {height:150px; font-size:17px;}
+
+}
