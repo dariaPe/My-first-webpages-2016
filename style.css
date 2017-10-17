@@ -123,7 +123,7 @@ a.tilelink
 {
 	width:100%;
 	float:left;
-	height:400px;
+	height:auto;
 	background-color:black;
 	border-top: 2px solid orange;
 	border-bottom: 2px solid orange;
@@ -142,13 +142,13 @@ a.tilelink
 
 #edu
 {
-	margin-top:150px;
+	margin-top:1px;
 	background-image: url(foto/brickwall.png);
 	width:100%;
 	border-top: 2px dotted orange;
 	border-bottom: 2px dotted orange;
 	float:left;
-	height:700px;
+	height:auto;
 	text-align: center;
 	color:black;
 	line-height: 40px;
@@ -161,6 +161,7 @@ ol
 	margin-bottom:5px;
 	list-style-type: none;
 	font-size: 30px;
+	padding:0;
 }
 ol>li
 {
@@ -172,15 +173,14 @@ ol>li
 	margin-top:50px;
 	width:100%;
 	float:left;
-	height:1200px;
+	height:auto;
 	color:black;
 	line-height: 40px;
 	font-size:23px;	 
 	text-align:center;
 	
  }
-
-#boxkar1
+#boxkar0
 {	
 	border-bottom: 2px dotted orange;
 	height: 100px;
@@ -188,6 +188,17 @@ ol>li
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:50px;
+	padding: 20px;
+	
+}
+#boxkar1
+{	
+	border-bottom: 2px dotted orange;
+	height: 110px;
+    width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
 	padding: 20px;
 	
 }
@@ -231,7 +242,7 @@ ol>li
 	height:700px;
 	color:black;
 	line-height: 40px;
-	font-size:23px;	 
+	font-size:20px;	 
 	text-align:center;
 	margin-top:0;
 	clear:both;
@@ -256,6 +267,7 @@ ol>li
 	margin-left:25px;
 	margin-right:25px;
 	margin-top:5%;
+	transition-duration:2s;
 }
 .kolo1:hover
 {
@@ -274,6 +286,7 @@ ol>li
 	margin-left:25px;
 	margin-top:5%;
 	line-height: normal;
+	transition-duration:2s;
 }
 .kolo2:hover
 {
@@ -316,12 +329,12 @@ a
 	right:3px;
 	bottom: 10px;
 	opacity:0.7;
-	dispaly:none;
+	display:none;
 }
 
 /*RWD*/
 
-@media (max-width: 750px) {
+@media (max-width: 780px) {
 .non-mobile-text{ display: none; }
 }
 
@@ -354,12 +367,12 @@ a
 #me {height: 700px;}
 .kimjestem {width:450px;}
 
-#edu  {height:900px;}
-
-#boxkar1 {width: 390px; height:120px;}
-#boxkar2 {width: 390px; height:120px;}
-#boxkar3 {width: 390px; height:120px;}
-#boxkar4 {width: 390px; height:240px;}
+#edu  {height:auto;}
+#boxkar0 {width: 390px; /*height:120px;*/}
+#boxkar1 {width: 390px; /*height:120px;*/}
+#boxkar2 {width: 390px; /*height:120px;*/}
+#boxkar3 {width: 390px; /*height:120px;*/}
+#boxkar4 {width: 390px; /*height:240px;*/}
 
 #pas {height:1000px;}
 #kola {height:1000px; width:400px;}
@@ -370,25 +383,26 @@ a
 
 @media (max-width: 500px) and (min-width: 0px) {
 
-#header {height: 270px;}
-#logo { fotn-size: 15px;}
+#header {height: auto;}
+/*#logo { font-size: 15px;}*/
 
 #content {width: 200px;}
 
-#me {height: 900px;}
+#me {height: auto;}
 .kimjestem {font-size:18px; width: 200px;}
 
-#edu  {height:1100px; font-size:15px;}
-
-#boxkar1 {width: 260px; height:195px;font-size:15px;}
-#boxkar2 {width: 260px; height:195px;font-size:15px;}
-#boxkar3 {width: 260px; height:195px;font-size:15px;}
-#boxkar4 {width: 260px; height:300px;font-size:15px;}
+#edu  {height:auto; font-size:15px;}
+#boxkar0 {width: 260px; /*height:195px;*/font-size:15px;}
+#boxkar1 {width: 260px; /*height:195px;*/font-size:15px;}
+#boxkar2 {width: 260px; /*height:195px;*/font-size:15px;}
+#boxkar3 {width: 260px; /*height:195px;*/font-size:15px;}
+#boxkar4 {width: 260px; /*height:300px;*/font-size:15px;}
 
 #pas {height:650px; font-size:20px;}
 #kola {height:525px; width:200px; font-size:10px; margin-left: 0px;}
-.kolo1 {width: 250px; height:250px;font-size:10px; }
-.kolo2 {width: 250px; height:250px; font-size:10px;}
+.kolo1 {width: 250px; height:250px;font-size:10px; margin-left: 20%;}
+.kolo2 {width: 250px; height:250px; font-size:10px;margin-left: 20%;}
+
 .mojeumiejetnosci {line-height:0.7cm;}
 
 #footer {height:150px; font-size:17px;}
